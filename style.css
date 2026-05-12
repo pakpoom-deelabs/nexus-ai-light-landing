@@ -215,7 +215,7 @@ button { font-family: inherit; }
 .menu-toggle.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
 .mobile-menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 4px;
   padding: 8px 24px 20px;
@@ -768,6 +768,7 @@ button { font-family: inherit; }
   .hide-mobile { display: none; }
   .nav-links { display: none; }
   .menu-toggle { display: inline-flex; }
+  .mobile-menu:not([hidden]) { display: flex; }
 
   .hero { padding: 56px 0 40px; }
   .hero h1 { font-size: 40px; }
