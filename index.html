@@ -1,1 +1,345 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>nexus-ai-light-landing</title></head><body><h1>Welcome to nexus-ai-light-landing</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus AI — Simplify Your Workflow</title>
+  <meta name="description" content="Nexus AI helps teams automate repetitive work, surface insights, and ship faster — without the complexity." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============== NAVBAR ============== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo" aria-label="Nexus AI home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 18V6l8 6 8-6v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">Nexus<span class="logo-accent">AI</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#testimonials">Customers</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#" class="btn btn-ghost hide-mobile">Sign in</a>
+        <a href="#" class="btn btn-primary">Get started</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#testimonials">Customers</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#" class="btn btn-ghost">Sign in</a>
+    </div>
+  </header>
+
+  <!-- ============== HERO ============== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          New · AI workflows v2.0 is here
+        </span>
+        <h1>Simplify Your Workflow with <span class="gradient-text">Nexus AI</span></h1>
+        <p class="lede">
+          The all-in-one platform that automates repetitive work, surfaces the insights you actually need, and helps your team ship faster — without the busywork.
+        </p>
+        <div class="hero-ctas">
+          <a href="#" class="btn btn-primary btn-lg">
+            Start free trial
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" class="btn btn-secondary btn-lg">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
+              <path d="M8 5v14l11-7L8 5z" fill="currentColor"/>
+            </svg>
+            Watch demo
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div class="avatars" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=80&auto=format&fit=crop" alt="" />
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=80&auto=format&fit=crop" alt="" />
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=80&auto=format&fit=crop" alt="" />
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=80&auto=format&fit=crop" alt="" />
+          </div>
+          <p><strong>4,200+</strong> teams already shipping faster with Nexus.</p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="120">
+        <div class="hero-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1080&auto=format&fit=crop"
+            alt="Developer working with Nexus AI on a laptop"
+            loading="eager"
+          />
+          <div class="floating-card card-stats">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M3 17l6-6 4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 7h7v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="stat-value">+38%</div>
+              <div class="stat-label">Team productivity</div>
+            </div>
+          </div>
+          <div class="floating-card card-status">
+            <span class="pulse-dot"></span>
+            <span>All systems operational</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container logo-row reveal">
+      <p class="logo-row-label">Trusted by forward-thinking teams</p>
+      <div class="logo-strip">
+        <span>Linear</span>
+        <span>Figma</span>
+        <span>Notion</span>
+        <span>Vercel</span>
+        <span>Stripe</span>
+        <span>Loom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FEATURES ============== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-static">Features</span>
+        <h2>Everything you need. Nothing you don't.</h2>
+        <p>Three thoughtfully designed primitives that work together to remove friction from your day.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card reveal" data-delay="0">
+          <div class="feature-thumb">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Analytics dashboard" loading="lazy" />
+          </div>
+          <div class="feature-body">
+            <div class="feature-icon icon-blue">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                <path d="M3 3v18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M7 14l4-4 3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Smart Insights</h3>
+            <p>Nexus quietly watches your data and surfaces the trends that actually move the business — no dashboards to babysit.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+        </article>
+
+        <article class="feature-card reveal" data-delay="120">
+          <div class="feature-thumb">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Circuit board" loading="lazy" />
+          </div>
+          <div class="feature-body">
+            <div class="feature-icon icon-coral">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                <path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Automation that Adapts</h3>
+            <p>Build flows in plain English. Nexus learns the shape of your team's work and keeps the boring parts running on their own.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+        </article>
+
+        <article class="feature-card reveal" data-delay="240">
+          <div class="feature-thumb">
+            <img src="https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?q=80&w=800&auto=format&fit=crop" alt="Abstract gradient" loading="lazy" />
+          </div>
+          <div class="feature-body">
+            <div class="feature-icon icon-violet">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Private by Design</h3>
+            <p>SOC 2 compliant, end-to-end encrypted, and your data is never used to train external models. Period.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== HOW IT WORKS / STATS ============== -->
+  <section class="stats" id="how">
+    <div class="container stats-inner reveal">
+      <div class="stats-copy">
+        <span class="eyebrow eyebrow-static">By the numbers</span>
+        <h2>Real teams. Real results.</h2>
+        <p>Nexus replaces the patchwork of tools your team copy-pastes between every day. The result is fewer tabs and a lot more done.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-num">3.4×</div>
+          <p>Faster project delivery</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">12hrs</div>
+          <p>Saved per person, per week</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">99.99%</div>
+          <p>Uptime over the last year</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">4,200+</div>
+          <p>Teams across 60 countries</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== TESTIMONIALS ============== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-static">Loved by teams</span>
+        <h2>What our customers say</h2>
+        <p>From two-person startups to global product teams — here's why people keep Nexus open all day.</p>
+      </div>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial-card reveal" data-delay="0">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            "Nexus quietly removed three of our internal tools in the first month. The team didn't even notice the migration — it just felt faster."
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=120&auto=format&fit=crop" alt="" />
+            <div>
+              <strong>Sara Mitchell</strong>
+              <span>Head of Operations, Linear</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card reveal" data-delay="120">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            "It's the first AI product that didn't feel like a demo. It's careful, honest about what it can do, and somehow always one step ahead."
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=120&auto=format&fit=crop" alt="" />
+            <div>
+              <strong>Daniel Okafor</strong>
+              <span>Engineering Lead, Northwind</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card reveal" data-delay="240">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>
+            "We replaced four subscriptions with one tab. My team's happier, our reports are sharper, and onboarding takes a single afternoon."
+          </blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=120&auto=format&fit=crop" alt="" />
+            <div>
+              <strong>Priya Chen</strong>
+              <span>COO, Loop Studio</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CTA ============== -->
+  <section class="cta" id="pricing">
+    <div class="container cta-inner reveal">
+      <h2>Ready to simplify your day?</h2>
+      <p>Get started in under two minutes. No credit card required, cancel anytime.</p>
+      <div class="hero-ctas center">
+        <a href="#" class="btn btn-primary btn-lg">Start free trial</a>
+        <a href="#" class="btn btn-secondary btn-lg">Talk to sales</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 18V6l8 6 8-6v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="logo-text">Nexus<span class="logo-accent">AI</span></span>
+        </a>
+        <p>Modern tools for teams who'd rather be building.</p>
+      </div>
+
+      <div class="footer-cols">
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">Roadmap</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-base">
+      <p>© <span id="year"></span> Nexus AI, Inc. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
